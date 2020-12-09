@@ -11,5 +11,5 @@ list=(
 
 for file in ${list[@]}; do
 	sudo cp -r $file $HOME
-        sudo chown $USER:$GROUP $HOME/$file
+        sudo chown -R $USER:$GROUP $HOME/$file
 done
