@@ -13,3 +13,5 @@ set lazyredraw
 set colorcolumn=120
 
 colorscheme eldar
+
+highlight LineNr ctermfg=254
