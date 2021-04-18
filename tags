@@ -1,0 +1,201 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<C-s>	.config/nvim/coc.vim	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<S-TAB>	.config/nvim/coc.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<TAB>	.config/nvim/coc.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<c-@>	.config/nvim/coc.vim	/^  inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
+<c-\>	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>$/;"	m
+<c-h>	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>$/;"	m
+<c-j>	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  nnoremap <silent> <c-j> :TmuxNavigateDown<cr>$/;"	m
+<c-k>	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  nnoremap <silent> <c-k> :TmuxNavigateUp<cr>$/;"	m
+<c-l>	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  nnoremap <silent> <c-l> :TmuxNavigateRight<cr>$/;"	m
+<c-space>	.config/nvim/coc.vim	/^  inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<cr>	.config/nvim/coc.vim	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
+<leader>a	.config/nvim/coc.vim	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>ac	.config/nvim/coc.vim	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
+<leader>f	.config/nvim/coc.vim	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>qf	.config/nvim/coc.vim	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
+<leader>rn	.config/nvim/coc.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
+<nowait>	.config/nvim/coc.vim	/^nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>$/;"	m
+<nowait>	.config/nvim/coc.vim	/^nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>$/;"	m
+<nowait>	.config/nvim/coc.vim	/^nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>$/;"	m
+<nowait>	.config/nvim/coc.vim	/^nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>$/;"	m
+<nowait>	.config/nvim/coc.vim	/^nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>$/;"	m
+<nowait>	.config/nvim/coc.vim	/^nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>$/;"	m
+<nowait>	.config/nvim/coc.vim	/^nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>$/;"	m
+<nowait>	.config/nvim/coc.vim	/^nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>$/;"	m
+<nowait><expr>	.config/nvim/coc.vim	/^  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\<cr>" : "\\<Left>"$/;"	m
+<nowait><expr>	.config/nvim/coc.vim	/^  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\<cr>" : "\\<Right>"$/;"	m
+<nowait><expr>	.config/nvim/coc.vim	/^  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<nowait><expr>	.config/nvim/coc.vim	/^  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<nowait><expr>	.config/nvim/coc.vim	/^  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<nowait><expr>	.config/nvim/coc.vim	/^  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+Fold	.config/nvim/coc.vim	/^command! -nargs=? Fold :call     CocAction('fold', <f-args>)$/;"	c
+Format	.config/nvim/coc.vim	/^command! -nargs=0 Format :call CocAction('format')$/;"	c
+K	.config/nvim/coc.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+NeedsVitalityRedraw	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:NeedsVitalityRedraw()$/;"	f
+OR	.config/nvim/coc.vim	/^command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')$/;"	c
+ShouldForwardNavigationBackToTmux	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:ShouldForwardNavigationBackToTmux(tmux_last_pane, at_tab_page_edge)$/;"	f
+TmuxAwareNavigate	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:TmuxAwareNavigate(direction)$/;"	f
+TmuxCommand	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:TmuxCommand(args)$/;"	f
+TmuxNavigateDown	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  command! TmuxNavigateDown call s:VimNavigate('j')$/;"	c
+TmuxNavigateDown	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^command! TmuxNavigateDown call s:TmuxAwareNavigate('j')$/;"	c
+TmuxNavigateLeft	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  command! TmuxNavigateLeft call s:VimNavigate('h')$/;"	c
+TmuxNavigateLeft	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^command! TmuxNavigateLeft call s:TmuxAwareNavigate('h')$/;"	c
+TmuxNavigatePrevious	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  command! TmuxNavigatePrevious call s:VimNavigate('p')$/;"	c
+TmuxNavigatePrevious	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^command! TmuxNavigatePrevious call s:TmuxAwareNavigate('p')$/;"	c
+TmuxNavigateRight	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  command! TmuxNavigateRight call s:VimNavigate('l')$/;"	c
+TmuxNavigateRight	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^command! TmuxNavigateRight call s:TmuxAwareNavigate('l')$/;"	c
+TmuxNavigateUp	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  command! TmuxNavigateUp call s:VimNavigate('k')$/;"	c
+TmuxNavigateUp	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^command! TmuxNavigateUp call s:TmuxAwareNavigate('k')$/;"	c
+TmuxNavigatorProcessList	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^command! TmuxNavigatorProcessList call s:TmuxNavigatorProcessList()$/;"	c
+TmuxNavigatorProcessList	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:TmuxNavigatorProcessList()$/;"	f
+TmuxOrTmateExecutable	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:TmuxOrTmateExecutable()$/;"	f
+TmuxSocket	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:TmuxSocket()$/;"	f
+TmuxVimPaneIsZoomed	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:TmuxVimPaneIsZoomed()$/;"	f
+VimNavigate	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^function! s:VimNavigate(direction)$/;"	f
+X	.config/nvim/colors/afterglow.vim	/^    fun <SID>X(group, fg, bg, attr)$/;"	f
+[g	.config/nvim/coc.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+]g	.config/nvim/coc.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+ac	.config/nvim/coc.vim	/^omap ac <Plug>(coc-classobj-a)$/;"	m
+af	.config/nvim/coc.vim	/^omap af <Plug>(coc-funcobj-a)$/;"	m
+check_back_space	.config/nvim/coc.vim	/^function! s:check_back_space() abort$/;"	f
+colour	.config/nvim/colors/afterglow.vim	/^    fun <SID>colour(r, g, b)$/;"	f
+g:afterglow_blackout	.config/nvim/colors/afterglow.vim	/^        let g:afterglow_blackout = 0$/;"	v
+g:afterglow_inherit_background	.config/nvim/colors/afterglow.vim	/^        let g:afterglow_inherit_background = 0$/;"	v
+g:afterglow_italic_comments	.config/nvim/colors/afterglow.vim	/^        let g:afterglow_italic_comments = 0$/;"	v
+g:afterglow_use_italics	.config/nvim/colors/afterglow.vim	/^        let g:afterglow_use_italics = 1$/;"	v
+g:colors_name	.config/nvim/colors/afterglow.vim	/^let g:colors_name = "afterglow"$/;"	v
+g:colors_name	.config/nvim/colors/eldar.vim	/^let g:colors_name = 'eldar'$/;"	v
+g:loaded_tmux_navigator	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^let g:loaded_tmux_navigator = 1$/;"	v
+g:tmux_navigator_disable_when_zoomed	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  let g:tmux_navigator_disable_when_zoomed = 0$/;"	v
+g:tmux_navigator_save_on_switch	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^  let g:tmux_navigator_save_on_switch = 0$/;"	v
+gd	.config/nvim/coc.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gi	.config/nvim/coc.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	.config/nvim/coc.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+grey_colour	.config/nvim/colors/afterglow.vim	/^    fun <SID>grey_colour(n)$/;"	f
+grey_level	.config/nvim/colors/afterglow.vim	/^    fun <SID>grey_level(n)$/;"	f
+grey_number	.config/nvim/colors/afterglow.vim	/^    fun <SID>grey_number(x)$/;"	f
+gy	.config/nvim/coc.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+ic	.config/nvim/coc.vim	/^omap ic <Plug>(coc-classobj-i)$/;"	m
+if	.config/nvim/coc.vim	/^omap if <Plug>(coc-funcobj-i)$/;"	m
+italic	.config/nvim/colors/afterglow.vim	/^        let italic = ""$/;"	v
+italic	.config/nvim/colors/afterglow.vim	/^        let italic = "italic"$/;"	v
+mygroup	.config/nvim/coc.vim	/^augroup mygroup$/;"	a
+rgb	.config/nvim/colors/afterglow.vim	/^    fun <SID>rgb(rgb)$/;"	f
+rgb_colour	.config/nvim/colors/afterglow.vim	/^    fun <SID>rgb_colour(x, y, z)$/;"	f
+rgb_level	.config/nvim/colors/afterglow.vim	/^    fun <SID>rgb_level(n)$/;"	f
+rgb_number	.config/nvim/colors/afterglow.vim	/^    fun <SID>rgb_number(x)$/;"	f
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Bold']        =  {'GUIFG':  'White',  'GUI':  'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['BoldItalic']  =  {'GUIFG':  'White',  'GUI':  'Italic,Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['ColorColumn']  =  {'GUIBG':  'DarkGray'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Comment']  =  {'GUIFG':  s:cyan,  'CTERMFG':  'cyan'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Constant']    =  {'GUIFG':  s:magenta,  'CTERMFG':  'magenta'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Cursor']        =  {'GUI':    'Reverse'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['CursorColumn']  =  {'GUIBG':  'DarkGrey'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['CursorLine']    =  {'GUI':    'NONE',      'GUIBG':  'NONE'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['CursorLineNr']  =  {'GUIFG':  'White'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['DiffAdd']     =  {'GUIFG':  s:green,  'GUIBG':  'Black',  'CTERMFG':  'Green',  'GUI':  'Reverse,Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['DiffChange']  =  {'GUIFG':  'NONE'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['DiffDelete']  =  {'GUIFG':  s:red,    'GUIBG':  'Black',  'CTERMFG':  'Red',    'GUI':  'Reverse,Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['DiffText']    =  {'GUIFG':  s:blue,   'GUIBG':  'Black',  'CTERMFG':  'Blue',   'GUI':  'Reverse,Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Directory']  =  {'GUIFG':  s:blue,     'CTERMFG':  'Blue',    'GUI':      'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['EndOfBuffer'] =  {'GUIFG':  'Blue',     'CTERMFG':  'Blue'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Error']       =  {'GUIFG':  s:red,       'GUIBG':    'Black',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['ErrorMsg']    =  {'GUIFG':  s:red,       'GUIBG':    'White',   'CTERMFG':  'red',        'GUI':  'Reverse,Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['FoldColumn']    =  {'GUIBG':  'DarkGrey'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Folded']        =  {'GUIFG':  'DarkGrey',      'GUIBG':  'Black'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Identifier']  =  {'GUIFG':  s:green,    'CTERMFG':  'green',    'GUI':  'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Ignore']      =  {'GUIFG':  'bg',        'CTERMFG':  'Black'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['IncSearch']  =  {'GUI':    'Reverse'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Italic']      =  {'GUIFG':  'White',  'GUI':  'Italic'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['LineNr']        =  {'GUIFG':  'DarkGray'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['MatchParen']  =  {'GUIBG':  s:cyan,      'CTERMBG':  'cyan'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['ModeMsg']       =  {'GUI':    'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['MoreMsg']       =  {'GUIFG':  s:green,  'CTERMFG':  'Green'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['NonText']     =  {'GUIFG':  s:blue,      'CTERMFG':  'blue'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Normal']        =  {'GUIFG':  s:gui_text,  'GUIBG':  s:gui_bg,  'CTERMBG':  s:term_bg,  'CTERMFG':  s:term_text}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Number']      =  {'GUIFG':  s:red,      'CTERMFG':  'red'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Pmenu']       =  {'GUIFG':  'Black',     'GUIBG':  'Grey'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['PmenuSel']    =  {'GUIFG':  s:yellow,    'GUIBG':  'DarkGrey',  'GUI':  'Bold',  'CTERMFG':  'yellow'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['PmenuThumb']  =  {'GUIBG':  'DarkGrey'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['PreProc']    =  {'GUIFG':  s:blue,     'CTERMFG':  'blue',     'GUI':  'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Question']      =  {'GUIFG':  s:blue,   'CTERMFG':  'Blue'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Search']     =  {'GUIFG':  'Black',    'GUIBG':    s:yellow,  'CTERMFG':  'yellow',  'CTERMBG':  'black',  'GUI':  'Bold',  'CTERM':  'Reverse,Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Special']    =  {'GUIFG':  s:red,     'CTERMFG':  'red'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['SpecialKey']  =  {'GUIFG':  s:cyan,      'CTERMFG':  'Cyan'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['SpellBad']    =  {'GUIFG':  'NONE',  'GUISP':  s:red,     'CTERMFG':  'red',     'GUI':  'undercurl'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['SpellCap']    =  {'GUIFG':  'NONE',  'GUISP':  s:blue,    'CTERMFG':  'blue',    'GUI':  'undercurl'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['SpellLocal']  =  {'GUIFG':  'NONE',  'GUISP':  s:yellow,  'CTERMFG':  'yellow',  'GUI':  'undercurl'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['SpellRare']   =  {'GUIFG':  'NONE',  'GUISP':  s:green,   'CTERMFG':  'green',   'GUI':  'undercurl'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Statement']  =  {'GUIFG':  s:yellow,  'CTERMFG':  'yellow',  'GUI':  'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['StatusLine']    =  {'GUIFG':  'White',  'GUIBG':    s:gui_bg,    'GUI':  'Bold,Reverse',  'CTERMFG':  'White',  'CTERMBG':  s:term_bg}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['StatusLineNC']  =  {'GUIFG':  'White',  'GUIBG':    s:gui_bg,    'GUI':  'Reverse',       'CTERMFG':  'White',  'CTERMBG':  s:term_bg}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Structure']  =  {'GUIFG':  s:magenta,  'CTERMFG':  'magenta'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['TabLine']      =  {'GUIFG':  'White',     'GUIBG':  'DarkGray'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['TabLineFill']  =  {'GUIBG':  'DarkGray'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['TabLineSel']   =  {'GUIFG':  'Black',     'GUIBG':  'Gray'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Title']         =  {'GUI':    'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Todo']        =  {'GUIFG':  'Black',     'GUIBG':    s:yellow,  'CTERMBG':  'yellow'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Type']       =  {'GUIFG':  s:green,    'CTERMFG':  'green',    'GUI':  'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Underlined']  =  {'GUIFG':  s:cyan,      'CTERMFG':  'cyan',    'GUI':      'Underline'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['VertSplit']    =  {'GUIFG':  'White',     'GUIBG':  'NONE'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['Visual']      =  {'GUIBG':  'DarkGrey'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['WarningMsg']  =  {'GUIFG':  s:red,       'CTERMFG':  'red'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let  s:ColourAssignment['WildMenu']      =  {'GUIFG':  'White',  'GUIBG':    'DarkGrey',  'GUI':  'Bold'}$/;"	v
+s:ColourAssignment	.config/nvim/colors/eldar.vim	/^let s:ColourAssignment = {}$/;"	v
+s:background	.config/nvim/colors/afterglow.vim	/^let s:background = "1a1a1a"$/;"	v
+s:black	.config/nvim/colors/afterglow.vim	/^let s:black = "000000"$/;"	v
+s:blue	.config/nvim/colors/afterglow.vim	/^let s:blue = "6c99bb"$/;"	v
+s:blue	.config/nvim/colors/eldar.vim	/^let s:blue      = get(g:, 'eldar_blue', '#729FCF')$/;"	v
+s:chosen_background	.config/nvim/colors/afterglow.vim	/^        let s:chosen_background = "NONE"$/;"	v
+s:chosen_background	.config/nvim/colors/afterglow.vim	/^        let s:chosen_background = s:background$/;"	v
+s:chosen_background	.config/nvim/colors/afterglow.vim	/^        let s:chosen_background = s:black$/;"	v
+s:colours	.config/nvim/colors/eldar.vim	/^    let s:colours = s:ColourAssignment[s:key]$/;"	v
+s:colours	.config/nvim/colors/eldar.vim	/^let s:colours = {}$/;"	v
+s:comment	.config/nvim/colors/afterglow.vim	/^let s:comment = "797979"$/;"	v
+s:cterm	.config/nvim/colors/eldar.vim	/^        let s:cterm = s:colours['CTERM']$/;"	v
+s:cterm	.config/nvim/colors/eldar.vim	/^        let s:cterm = s:gui$/;"	v
+s:ctermbg	.config/nvim/colors/eldar.vim	/^            let s:ctermbg = 'NONE'$/;"	v
+s:ctermbg	.config/nvim/colors/eldar.vim	/^            let s:ctermbg = s:guibg$/;"	v
+s:ctermbg	.config/nvim/colors/eldar.vim	/^        let s:ctermbg = s:colours['CTERMBG']$/;"	v
+s:ctermfg	.config/nvim/colors/eldar.vim	/^            let s:ctermfg = 'NONE'$/;"	v
+s:ctermfg	.config/nvim/colors/eldar.vim	/^            let s:ctermfg = s:guifg$/;"	v
+s:ctermfg	.config/nvim/colors/eldar.vim	/^        let s:ctermfg = s:colours['CTERMFG']$/;"	v
+s:cyan	.config/nvim/colors/eldar.vim	/^let s:cyan      = get(g:, 'eldar_cyan', '#34E2E2')$/;"	v
+s:foreground	.config/nvim/colors/afterglow.vim	/^let s:foreground = "d6d6d6"$/;"	v
+s:green	.config/nvim/colors/afterglow.vim	/^let s:green = "b4c973"$/;"	v
+s:green	.config/nvim/colors/eldar.vim	/^let s:green     = get(g:, 'eldar_green', '#8AE234')$/;"	v
+s:gui	.config/nvim/colors/eldar.vim	/^        let s:gui = 'NONE'$/;"	v
+s:gui	.config/nvim/colors/eldar.vim	/^        let s:gui = s:colours['GUI']$/;"	v
+s:gui_bg	.config/nvim/colors/eldar.vim	/^let s:gui_bg    = get(g:, 'eldar_background', 'Black')$/;"	v
+s:gui_text	.config/nvim/colors/eldar.vim	/^let s:gui_text  = get(g:, 'eldar_text', 'White')$/;"	v
+s:guibg	.config/nvim/colors/eldar.vim	/^        let s:guibg = 'NONE'$/;"	v
+s:guibg	.config/nvim/colors/eldar.vim	/^        let s:guibg = s:colours['GUIBG']$/;"	v
+s:guifg	.config/nvim/colors/eldar.vim	/^        let s:guifg = 'NONE'$/;"	v
+s:guifg	.config/nvim/colors/eldar.vim	/^        let s:guifg = s:colours['GUIFG']$/;"	v
+s:guisp	.config/nvim/colors/eldar.vim	/^        let s:guisp = 'NONE'$/;"	v
+s:guisp	.config/nvim/colors/eldar.vim	/^        let s:guisp = s:colours['GUISP']$/;"	v
+s:line	.config/nvim/colors/afterglow.vim	/^let s:line = "393939"$/;"	v
+s:magenta	.config/nvim/colors/eldar.vim	/^let s:magenta   = get(g:, 'eldar_magenta', '#AD7FA8')$/;"	v
+s:orange	.config/nvim/colors/afterglow.vim	/^let s:orange = "e87d3e"$/;"	v
+s:purple	.config/nvim/colors/afterglow.vim	/^let s:purple = "9e86c8"$/;"	v
+s:red	.config/nvim/colors/afterglow.vim	/^let s:red = "ac4142"$/;"	v
+s:red	.config/nvim/colors/eldar.vim	/^let s:red       = get(g:, 'eldar_red', '#EF2929')$/;"	v
+s:selection	.config/nvim/colors/afterglow.vim	/^let s:selection = "5a647e"$/;"	v
+s:term	.config/nvim/colors/eldar.vim	/^        let s:term = 'NONE'$/;"	v
+s:term	.config/nvim/colors/eldar.vim	/^        let s:term = s:colours['TERM']$/;"	v
+s:term_bg	.config/nvim/colors/eldar.vim	/^let s:term_bg    = get(g:, 'eldar_term_background', 'NONE')$/;"	v
+s:term_text	.config/nvim/colors/eldar.vim	/^let s:term_text  = get(g:, 'eldar_term_text', 'NONE')$/;"	v
+s:tmux_is_last_pane	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^let s:tmux_is_last_pane = 0$/;"	v
+s:valid_cterm_colours	.config/nvim/colors/eldar.vim	/^let s:valid_cterm_colours =$/;"	v
+s:window	.config/nvim/colors/afterglow.vim	/^let s:window = "4d5057"$/;"	v
+s:wine	.config/nvim/colors/afterglow.vim	/^let s:wine = "b05279"$/;"	v
+s:yellow	.config/nvim/colors/afterglow.vim	/^let s:yellow = "e5b567"$/;"	v
+s:yellow	.config/nvim/colors/eldar.vim	/^let s:yellow    = get(g:, 'eldar_yellow', '#FCE94F')$/;"	v
+show_documentation	.config/nvim/coc.vim	/^function! s:show_documentation()$/;"	f
+tmux_navigator	.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim	/^augroup tmux_navigator$/;"	a

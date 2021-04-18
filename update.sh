@@ -7,6 +7,8 @@ GROUP=$(id -g)
 list=(
 	'.config'
 	'.tmux.conf'
+	'.fzf.zsh'
+	'.zshrc'
 )
 
 for file in ${list[@]}; do
