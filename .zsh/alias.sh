@@ -1,0 +1,1 @@
+alias commit-empty="git commit --signoff --allow-empty-message --allow-empty"
