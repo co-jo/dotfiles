@@ -1,15 +1,15 @@
 call plug#begin()
 
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'yegappan/taglist'
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'yegappan/taglist'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'tpope/vim-surround'
 
 call plug#end()
 
 " Auto generate tags file on file write of *.c and *.h files
-autocmd BufWritePost *.c,*.h silent! !ctags . &
+"utocmd BufWritePost *.c,*.h silent! !ctags . &
 
 set number
 set expandtab
