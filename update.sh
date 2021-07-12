@@ -13,6 +13,7 @@ list=(
 	'.tmux.conf'
 	'.fzf.zsh'
 	'.zshrc'
+        '.zsh'
 )
 
 echo "Updating config files. Found:"
